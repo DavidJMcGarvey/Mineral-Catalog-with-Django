@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Minerals(models.Model):
+class Mineral(models.Model):
     name = models.CharField(max_length=250, blank=True)
     image_filename = models.CharField(max_length=250, blank=True)
     image_caption = models.CharField(max_length=250, blank=True)
