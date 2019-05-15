@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0411ec3b-41df-467b-b932-7d78da2b37a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_techdegree_06/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_techdegree_project_06/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_techdegree_06/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_techdegree_project_06/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_techdegree_06/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_techdegree_project_06/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_techdegree_06/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_techdegree_project_06/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_techdegree_06/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_techdegree_project_06/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minerals/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/minerals/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_techdegree_project_06/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_techdegree_project_06/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_techdegree_project_06/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+            <state relative-caret-position="753">
+              <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -48,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/minerals/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -78,14 +73,14 @@
         <option value="$PROJECT_DIR$/python_techdegree_06/views.py" />
         <option value="$PROJECT_DIR$/python_techdegree_06/urls.py" />
         <option value="$PROJECT_DIR$/python_techdegree_project_06/settings.py" />
+        <option value="$PROJECT_DIR$/minerals/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="282" />
-    <option name="y" value="226" />
-    <option name="width" value="1158" />
-    <option name="height" value="673" />
+    <option name="x" value="-1600" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,7 +104,8 @@
             <path>
               <item name="python_techdegree_project_06" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_techdegree_project_06" type="462c0819:PsiDirectoryNode" />
-              <item name="python_techdegree_project_06" type="462c0819:PsiDirectoryNode" />
+              <item name="minerals" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,18 +168,17 @@
       <updated>1557261716921</updated>
       <workItem from="1557261722443" duration="2513000" />
       <workItem from="1557298970359" duration="694000" />
-      <workItem from="1557870817396" duration="2330000" />
+      <workItem from="1557870817396" duration="4190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5537000" />
+    <option name="totallyTimeSpent" value="7397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1600" y="0" width="1600" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21805556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,13 +217,6 @@
     <entry file="file://$PROJECT_DIR$/python_techdegree_project_06/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_techdegree_project_06/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_techdegree_project_06/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -239,17 +227,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minerals/models.py">
+    <entry file="file://$PROJECT_DIR$/python_techdegree_project_06/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="753">
+          <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_techdegree_project_06/settings.py">
+    <entry file="file://$PROJECT_DIR$/python_techdegree_project_06/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minerals/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
