@@ -23,3 +23,6 @@ class Minerals(models.Model):
     crystal_habit = models.CharField(max_length=250, blank=True)
     specific_gravity = models.CharField(max_length=250, blank=True)
 
+    def __str__(self):
+        return self.name
+
