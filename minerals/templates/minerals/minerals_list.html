@@ -1,5 +1,7 @@
-{% extends 'layout.html' %}
+{% extends 'minerals/layout.html' %}
 
-{% for mineral in minerals %}
-    <h2>{{ mineral.name }}</h2>
-{% endfor %}
+{% block content %}
+    {% for min in minerals %}
+        <h2>{{ min.name }}</h2>
+    {% endfor %}
+{% endblock %}
