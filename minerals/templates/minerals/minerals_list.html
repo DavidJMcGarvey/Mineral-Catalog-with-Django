@@ -5,7 +5,7 @@
       <ul class="minerals__container">
       {% for min in minerals %}
         <li class="minerals__item">
-          <a class="minerals__anchor" href="detail.html">{{ min.name }}</a>
+          <a class="minerals__anchor" href="{% url 'minerals:detail' pk=min.pk %}">{{ min.name }}</a>
         </li>
       {% endfor %}
       </ul>
