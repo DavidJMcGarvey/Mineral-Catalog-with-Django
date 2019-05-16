@@ -1,7 +1,14 @@
 {% extends 'minerals/layout.html' %}
 
 {% block content %}
+    <div class="grid-100">
     {% for min in minerals %}
-        <h2>{{ min.name }}</h2>
+
+      <ul class="minerals__container">
+        <li class="minerals__item">
+          <a class="minerals__anchor" href="detail.html">{{ min.name }}</a>
+        </li>
+      </ul>
     {% endfor %}
+    </div>
 {% endblock %}

@@ -4,7 +4,7 @@ import json
 
 
 def load_minerals(apps, schema_editor):
-    mineral_model = apps.get_model('minerals', 'Minerals')
+    mineral_model = apps.get_model('minerals', 'Mineral')
     with open('mineral_data/minerals.json', encoding='utf-8') as rock_file:
         minerals = json.load(rock_file)
         for mineral in minerals:
