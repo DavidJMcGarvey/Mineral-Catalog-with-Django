@@ -1,3 +1,5 @@
+import random
+
 from django.shortcuts import get_object_or_404, render
 
 from .models import Mineral
@@ -9,5 +11,10 @@ def minerals_list(request):
 
 
 def mineral_detail(request, pk):
+    mineral = get_object_or_404(Mineral, pk=pk)
+    return render(request, 'minerals/mineral_detail.html', {'mineral': mineral})
+
+
+def mineral_random(request, pk=random.randint(1, 500)):
     mineral = get_object_or_404(Mineral, pk=pk)
     return render(request, 'minerals/mineral_detail.html', {'mineral': mineral})

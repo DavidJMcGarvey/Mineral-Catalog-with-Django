@@ -1,5 +1,4 @@
 {% extends 'minerals/layout.html' %}
-{% load static from staticfiles %}
 
 {% block content %}
 <div class="grid-100 mineral__container">
@@ -16,18 +15,6 @@
         <td>{{ mineral.category|title }}</td>
       </tr>
       {% endif %}
-      {% if mineral.formula %}
-      <tr>
-        <td class="mineral__category">Formula</td>
-        <td>{{ mineral.formula|safe }}</td>
-      </tr>
-      {% endif %}
-      {% if mineral.strunz_classification %}
-      <tr>
-        <td class="mineral__category">Strunz Classification</td>
-        <td>{{ mineral.strunz_classification|title }}</td>
-      </tr>
-      {% endif %}
       {% if mineral.color %}
       <tr>
         <td class="mineral__category">Color</td>
@@ -38,6 +25,18 @@
       <tr>
         <td class="mineral__category">Crystal System</td>
         <td>{{ mineral.crystal_system|title }}</td>
+      </tr>
+      {% endif %}
+      {% if mineral.formula %}
+      <tr>
+        <td class="mineral__category">Formula</td>
+        <td>{{ mineral.formula|safe }}</td>
+      </tr>
+      {% endif %}
+      {% if mineral.strunz_classification %}
+      <tr>
+        <td class="mineral__category">Strunz Classification</td>
+        <td>{{ mineral.strunz_classification|title }}</td>
       </tr>
       {% endif %}
       {% if mineral.unit_cell %}
