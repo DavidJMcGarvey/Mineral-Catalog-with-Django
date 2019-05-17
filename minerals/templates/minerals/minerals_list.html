@@ -4,7 +4,7 @@
     <div class="grid-100">
       <ul class="minerals__container">
       {% for min in minerals %}
-        <li class="minerals__item">
+        <li class="minerals__item__custom">
           <a class="minerals__anchor" href="{% url 'minerals:detail' pk=min.pk %}">{{ min.name }}</a>
         </li>
       {% endfor %}
