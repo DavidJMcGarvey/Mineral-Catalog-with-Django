@@ -1,10 +1,12 @@
 {% extends 'minerals/layout.html' %}
+{% load static %}
+
 
 {% block content %}
 <div class="grid-100 mineral__container">
   <h1 class="mineral__name">{{ mineral.name }}</h1>
   <div class="mineral__image-bg">
-    <img class="mineral__image" src="static/images/{{ mineral.image_filename }}" alt="Mineral Pic">
+    <img class="mineral__image" src="{% static 'images' %}/{{ mineral.image_filename }}" alt="Mineral Pic">
     <p class="mineral__caption">{{ mineral.image_caption }}</p>
   </div>
   <div class="mineral__table-container">
