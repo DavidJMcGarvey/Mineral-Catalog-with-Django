@@ -38,7 +38,8 @@ class MineralViewsTests(TestCase):
         self.assertContains(resp, self.mineral.name)
 
     def test_mineral_detail_view(self):
-        resp = self.client.get(reverse('minerals:detail', kwargs={'pk': self.mineral.pk}))
+        resp = self.client.get(reverse('minerals:detail',
+                                       kwargs={'pk': self.mineral.pk}))
         self.assertEqual(resp.status_code, 200)
         self.assertEqual(self.mineral, resp.context['mineral'])
 
