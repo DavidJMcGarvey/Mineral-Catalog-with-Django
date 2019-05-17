@@ -15,6 +15,7 @@ def mineral_detail(request, pk):
     return render(request, 'minerals/mineral_detail.html', {'mineral': mineral})
 
 
-def mineral_random(request, pk=random.randint(1, 500)):
-    mineral = get_object_or_404(Mineral, pk=pk)
-    return render(request, 'minerals/mineral_detail.html', {'mineral': mineral})
+def mineral_random(request):
+    minerals = Mineral.objects.all()
+    random_mineral = random.choice(minerals)
+    return render(request, 'minerals/mineral_detail.html', {'mineral': random_mineral})
